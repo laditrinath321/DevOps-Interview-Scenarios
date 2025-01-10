@@ -1,0 +1,86 @@
+Here’s a detailed list of **hands-on scenario-based questions** interviewers might ask to evaluate your practical skills and problem-solving approach in DevOps:
+
+---
+
+### **CI/CD Scenarios**
+1. **A build fails in the CI/CD pipeline. How would you troubleshoot and resolve the issue?**  
+2. **You need to deploy a multi-environment CI/CD pipeline for development, staging, and production. How would you configure it?**  
+3. **How would you set up a pipeline to trigger automated tests after each commit to a Git repository?**  
+4. **A new application needs zero-downtime deployment. Which strategies would you use, and why?**  
+5. **How would you integrate security scanning into a Jenkins pipeline?**  
+
+---
+
+### **Containerization Scenarios**
+1. **You need to migrate a legacy application to a containerized environment. What steps would you take?**  
+2. **A Docker container is running but is unreachable from the host. How would you debug and fix it?**  
+3. **How would you optimize a large Docker image to reduce its size?**  
+4. **Explain how you would set up persistent storage for a containerized database using Docker volumes.**  
+5. **You need to monitor resource usage (CPU, memory) of running Docker containers. Which tools would you use, and how?**  
+
+---
+
+### **Kubernetes Scenarios**
+1. **A Pod in Kubernetes is stuck in "CrashLoopBackOff." How would you troubleshoot and fix it?**  
+2. **How would you implement horizontal scaling for an application running in Kubernetes?**  
+3. **Your application requires sensitive credentials. How would you securely manage them in Kubernetes?**  
+4. **A service running in Kubernetes is not accessible from outside the cluster. How would you troubleshoot this issue?**  
+5. **You need to perform a rolling update for an application in Kubernetes. What steps would you take?**  
+
+---
+
+### **Cloud Computing Scenarios**
+1. **How would you set up auto-scaling for a web application running on AWS EC2?**  
+2. **A team complains about high latency for an application hosted in AWS. How would you diagnose and reduce latency?**  
+3. **You need to migrate an on-premises application to AWS using IaC. What tools would you use, and how?**  
+4. **An AWS Lambda function is taking longer to execute than expected. How would you identify and resolve the issue?**  
+5. **How would you ensure a highly available architecture for a cloud-based application?**  
+
+---
+
+### **Infrastructure as Code (IaC) Scenarios**
+1. **You need to provision and configure an entire infrastructure on AWS. How would you use Terraform to accomplish this?**  
+2. **How would you handle changes to infrastructure code in a collaborative environment using Terraform?**  
+3. **Your Terraform state file is accidentally deleted. What steps would you take to recover or recreate it?**  
+4. **How would you set up a multi-cloud deployment using Terraform?**  
+5. **A configuration drift has occurred between your IaC definition and the deployed infrastructure. How would you detect and fix it?**  
+
+---
+
+### **Automation and Scripting Scenarios**
+1. **You need to automate the creation of user accounts on a Linux server. How would you approach this task?**  
+2. **A repetitive task, such as rotating logs, is consuming time. How would you automate it using a script?**  
+3. **How would you write a script to monitor disk usage and alert if it exceeds a threshold?**  
+4. **You need to parse logs and extract specific patterns. Which scripting tools would you use, and how?**  
+5. **A new service needs to be added to multiple servers. How would you automate the deployment process?**  
+
+---
+
+### **Monitoring and Logging Scenarios**
+1. **A service is experiencing high response times. How would you use monitoring tools to identify the bottleneck?**  
+2. **You are tasked with setting up centralized logging for a multi-node application. What tools and approach would you use?**  
+3. **A critical alert was missed due to monitoring misconfiguration. How would you resolve and prevent this in the future?**  
+4. **How would you set up Prometheus and Grafana to monitor a Kubernetes cluster?**  
+5. **You need to implement end-to-end tracing for a distributed system. What tools would you use, and how?**  
+
+---
+
+### **Security Scenarios**
+1. **A container image has vulnerabilities. How would you detect and fix them?**  
+2. **You suspect credentials have been hardcoded into a repository. How would you locate and remediate this issue?**  
+3. **How would you implement secrets management for a CI/CD pipeline?**  
+4. **A production server has been compromised. What immediate actions would you take to mitigate the issue?**  
+5. **How would you enforce compliance in your IaC or CI/CD workflows?**  
+
+---
+
+### **Collaboration and Teamwork Scenarios**
+1. **A team member pushes code that breaks the build. How would you handle and prevent this issue in the future?**  
+2. **How would you manage conflicts when multiple teams are working on the same codebase?**  
+3. **Your team disagrees on the choice of a tool for a new project. How would you handle this situation?**  
+4. **How would you onboard a new developer into a DevOps workflow?**  
+5. **How would you ensure clear documentation and knowledge sharing for a new deployment process?**  
+
+---
+
+These scenarios test not only your technical expertise but also your ability to troubleshoot, communicate effectively, and think critically under pressure. Let me know if you want help crafting answers for any of these!
